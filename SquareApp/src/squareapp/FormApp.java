@@ -69,14 +69,14 @@ public class FormApp extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("input square width ");
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(12, 169, 180, -1));
-        jPanel1.add(pj, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 118, 78, -1));
+        jPanel1.add(pj, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 120, 78, -1));
 
         pl.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 plActionPerformed(evt);
             }
         });
-        jPanel1.add(pl, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 166, 78, -1));
+        jPanel1.add(pl, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 170, 78, -1));
 
         ll.setEditable(false);
         ll.addActionListener(new java.awt.event.ActionListener() {
